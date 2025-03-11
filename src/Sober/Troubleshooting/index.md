@@ -35,7 +35,6 @@ It means that the Roblox build Sober is in has reached it's end of the lifespan.
 | 661 **(Current Sober build)**    | 02/20/25           | Yes        | 03/24/25 - 03/29/25                |
 | 662                              | 02/27/25           | Yes        | 03/25/25 - 03/29/25                |
   
-  **cutoff estimation was pushed two weeks forward from the initial esimation due to holiday vacation
   *this estimation is a week further due to a slightly shorter month
 </details>
 
@@ -140,7 +139,7 @@ Make sure that the file picker for your DE is installed and set correctly.
 Either your DE does not know that it exists, Flatpak failed to create one when you install it, or it is yet to be indexed by the DE.
 
 #### Solution
-Wait for the DE to index the shortcut first.
+Wait for the DE to index the shortcut first. Reboot if it doesn't after a few minutes.
 
 If it doesn't index, make sure that there are both `.desktop` entries in `~/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications` with the following:
 ```

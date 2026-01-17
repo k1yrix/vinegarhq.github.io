@@ -54,7 +54,7 @@ Since September 2025, Fast Flags have since been locked down to a select few in 
 | `FFlagDebugGraphicsPreferVulkan`              | bool          | Prefers Vulkan for rendering                                              |                    |
 | `FFlagDebugGraphicsPreferOpenGL`              | bool          | Prefers OpenGL for rendering                                              |                    |
 
-## User interface Fast Flags
+### User interface Fast Flags
 | FFlag Name                                    | Type          | Description                                                               | Accepted Values    |
 | --------------------------------------------- | ------------- | ------------------------------------------------------------------------- | ------------------ |
 | `FIntGrassMovementReducedMotionFactor`        | integer       | Reduces grass movement by `x` studs                                       |                    |

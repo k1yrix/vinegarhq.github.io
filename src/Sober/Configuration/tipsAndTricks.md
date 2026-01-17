@@ -32,23 +32,23 @@ Since September 2025, Fast Flags have since been locked down to a select few in 
 ### Geometry Fast Flags
 | FFlag Name                                    | Type          | Description                                                               | Accepted Values    |
 | --------------------------------------------- | ------------- | ------------------------------------------------------------------------- | ------------------ |
-| `DFIntCSGLevelOfDetailSwitchingDistance`      | integer       | TBD                                                                       |                    |
-| `DFIntCSGLevelOfDetailSwitchingDistanceL12`   | integer       | TBD                                                                       |                    |
-| `DFIntCSGLevelOfDetailSwitchingDistanceL23`   | integer       | TBD                                                                       |                    |
-| `DFIntCSGLevelOfDetailSwitchingDistanceL34`   | integer       | TBD                                                                       |                    |
+| `DFIntCSGLevelOfDetailSwitchingDistance`      | integer       | Sets level of detail for CSG models                                       |                    |
+| `DFIntCSGLevelOfDetailSwitchingDistanceL12`   | integer       | Sets level of detail for CSG models (graphic levels 1 and 2)              |                    |
+| `DFIntCSGLevelOfDetailSwitchingDistanceL23`   | integer       | Sets level of detail for CSG models (graphic levels 2 and 3)              |                    |
+| `DFIntCSGLevelOfDetailSwitchingDistanceL34`   | integer       | Sets level of detail for CSG models (graphic levels 3 and 4)              |                    |
 
 ### Rendering Fast Flags
 | FFlag Name                                    | Type          | Description                                                               | Accepted Values    |
 | --------------------------------------------- | ------------- | ------------------------------------------------------------------------- | ------------------ |
-| `FFlagHandleAltEnterFullscreenManually`       | bool          | TBD                                                                       |                    |
+| `FFlagHandleAltEnterFullscreenManually`       | bool          | Enables manual control for true fullscreen (is not relevant for Sober)    |                    |
 | `DFFlagTextureQualityOverrideEnabled`         | bool          | Enables texture quality to be overrided by `DFIntTextureQualityOverride`  |                    |
 | `DFIntTextureQualityOverride`                 | integer       | Sets texture quality level. (`DFFlagTextureQualityOverrideEnabled` must be set to true first) |           |
 | `FIntDebugForceMSAASamples`                   | integer       | Force MSAA anti-aliasing sample rate                                      |                    |
-| `DFFlagDisableDPIScale`                       | bool          | TBD                                                                       |                    |
+| `DFFlagDisableDPIScale`                       | bool          | Disables DPI downscaling                                                  |                    |
 | `FFlagDebugGraphicsPreferD3D11`               | bool          | Prefers DirectX 11 for rendering (is not relevant for Sober)              |                    |
 | `FFlagDebugSkyGray`                           | bool          | Overrides the skybox color to gray, removes atmospheric stars             |                    |
 | `DFFlagDebugPauseVoxelizer`                   | bool          | TBD                                                                       |                    |
-| `DFIntDebugFRMQualityLevelOverride`           | bool          | TBD                                                                       |                    |
+| `DFIntDebugFRMQualityLevelOverride`           | bool          | Overrides graphic quality level (does not affect render distance)         |                    |
 | `FIntFRMMaxGrassDistance`                     | integer       | Sets the maximum distance for grass rendering                             |                    |
 | `FIntFRMMinGrassDistance`                     | integer       | Sets the minimum distance for grass rendering                             |                    |
 | `FFlagDebugGraphicsPreferVulkan`              | bool          | Prefers Vulkan for rendering                                              |                    |
@@ -57,4 +57,4 @@ Since September 2025, Fast Flags have since been locked down to a select few in 
 ### User interface Fast Flags
 | FFlag Name                                    | Type          | Description                                                               | Accepted Values    |
 | --------------------------------------------- | ------------- | ------------------------------------------------------------------------- | ------------------ |
-| `FIntGrassMovementReducedMotionFactor`        | integer       | Reduces grass movement by `x` studs                                       |                    |
+| `FIntGrassMovementReducedMotionFactor`        | integer       | Reduces grass movement by `x` factor                                      |                    |

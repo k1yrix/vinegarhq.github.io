@@ -52,7 +52,9 @@ Use a CPU that is from 2008+ (for Intel) or 2013+ (for AMD).
 ### I can't join a game because Roblox said it could not verify the integrity of the game! (Error 318)
 You are trying to join a game with [Android Remote Attestation](https://en.help.roblox.com/hc/en-us/articles/49648939984916-Android-Remote-Attestation) enabled.
 
-Unfortuantely, since ARA checks if the device is real and Sober is not a real device, we cannot fix this.
+Unfortuantely, since ARA checks if the device is real and Sober is not a real device, we cannot fix this on our part.
+
+> Please contact the developers of the game though their official channels regarding this if you have trouble connecting.
 
 > [Rivals](https://www.roblox.com/games/17625359962/) is the only reported game with Android Remote Attestation enabled.
 

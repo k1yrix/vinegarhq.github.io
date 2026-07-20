@@ -59,9 +59,9 @@ Unfortuantely, since ARA checks if the device is real and Sober is not a real de
 > [Rivals](https://www.roblox.com/games/17625359962/) is the only reported game with Android Remote Attestation enabled.
 
 #### Can't you just emulate or find a way to bypass it?
-By doing so, we would be risking breaking some form of Terms of Service (either set by Roblox or Google) by circumventing security measures in place and would put Sober in a position where we could get barred by Roblox.
+By doing so, we would be risking breaking some form of Terms of Service (either set by Roblox or Google) by circumventing security measures in place and would put Sober in a position where we could get banned by Roblox.
 
-Additionally, integrity checks like this has to make contact with the phyiscal hardware on the cryptographical level and verify that the hardware keys are real, something we cannot replicate since Sober is not a phyiscal device and it would potentially involve key dumping that could get revoked quickly by Google.
+Additionally, integrity checks like this has to make contact with the physical hardware on the cryptographical level and verify that the hardware keys are real, something we cannot replicate since Sober is not a physical device and it would potentially involve key dumping that could get revoked quickly by Google.
 
 
 

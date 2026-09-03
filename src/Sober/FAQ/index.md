@@ -61,6 +61,15 @@ Sober is unofficial research software. Roblox may choose to prevent Sober client
 
 
 
+## Will I get banned/moderated for using Sober?
+**No.** Very rarely will you get moderated for ordinary use of Sober.
+
+Roblox administrators would never issue a moderation action against you for using Sober the way it's intended to be used unless they have a reason to otherwise.
+
+Even if it is the reason, it's most likely they messed something up.
+
+
+
 ## Multi Instances support?
 No, as [Roblox considers this practice malicious](https://devforum.roblox.com/t/is-fishstrap-bloxstrap-no-longer-allowed-on-the-platform/3829253/13). Even if it weren't the case, we would rather not let Sober be used (or be as unintuitive as possible to use) in bot farms.
 
